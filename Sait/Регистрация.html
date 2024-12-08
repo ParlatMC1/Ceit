@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="Сайт.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Лого.png" alt="Логотип" style="height: 50px;"> <!-- Замените на путь к вашему изображению лого -->
+            <h1>Сайт для дистанционного обучения</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="Сайт.html">Главная</a></li>
+                <li><a href="Регистрация.html">Регистрация</a></li>
+                <li><a href="Контакты.html">Контакты</a></li>
+                <li><a href="Новости.html">Новости</a></li>
+                <li><a href="О_Нас.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Регистрация</h2>
+            <form method="POST">
+                <div class="form-group">
+                    <label for="username">Имя пользователя</label>
+                    <input type="text" class="form-control" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Электронная почта</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Зарегистрироваться</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 Дистанционное Обучение. Все права защищены.</p>
+    </footer>
+</body>
+</html>
